@@ -1,4 +1,4 @@
-// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
+// ГЏГ®Г¬ГҐГ±ГІГЁГІГҐ ГЇГ Г°Г Г¬ГҐГІГ°Г» Гў ГЅГІГ®ГІ ГґГ Г©Г«, Г·ГІГ®ГЎГ» ГЇГҐГ°ГҐГ§Г ГЇГЁГ±Г ГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ® ГіГ¬Г®Г«Г·Г Г­ГЁГѕ.
 {
     "window.menuBarVisibility": "toggle",
     "files.autoSave": "off",
@@ -62,7 +62,5 @@
     "git.enableSmartCommit": true,
     "terminal.integrated.lineHeight": 1,
     "editor.renderLineHighlight": "none",
-    "editor.links": false,
-    "shareCode.github.username": "nazar.kuznettsov@gmail.com",
-    "shareCode.github.authtoken": "82853c26842b64b497837eab15bd26f82a04060f"
+    "editor.links": false
 }
