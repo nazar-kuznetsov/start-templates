@@ -1,0 +1,40 @@
+.page-header {
+	background-color: orange;
+	color: #fff;
+
+}
+
+.nav-main {
+	@include flex();
+}
+
+.nav-main__logo {
+	@include col(3);
+	padding: 10px;
+}
+
+.nav-main__menu {
+	@include col(9);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-main__link {
+	display: block;
+	color: #fff;
+	padding: 10px 20px;
+	transition: background-color .5s;
+
+	&:hover {
+		background-color: #fff;
+		color: orange;
+	}
+}
+
+.page-header__fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}

@@ -1,0 +1,68 @@
+// ѕоместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
+{
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "off",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontFamily": "Fira Code",
+    "editor.renderWhitespace": "none",
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.cursorStyle": "line",
+    "[javascript]": {
+        
+    },
+     "files.exclude": {
+        "**/node_modules": true
+    },
+    "files.associations": {
+        "*.js": "javascript",
+        "*.scss": "scss"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#212A39",
+        "sideBar.background": "#212A39",
+        "terminal.background": "#212A39",
+        "statusBar.background": "#1C2431",
+        "panel.background": "#212A39",
+        "editor.selectionBackground": "#475A7A",
+        "editor.selectionHighlightBackground": "#475A7A",
+        "editor.findMatchBackground": "#475A7A"
+    },
+    "editor.renderControlCharacters": false,
+    "scss.lint.zeroUnits": "warning",
+    "scss.lint.important": "warning",
+    "scss.lint.idSelector": "warning",
+    "html.format.wrapLineLength": 80,
+    "terminal.integrated.fontSize": 14,
+    "grunt.autoDetect": "off",
+    "editor.tabSize": 2,
+    "git.enabled": true,
+    "workbench.colorTheme": "Sapphire",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.minimap.enabled": false,
+    "extensions.autoUpdate": false,
+    "editor.fontWeight": "200",
+    "update.channel": "none",
+    "css.validate": false,
+    "css.lint.vendorPrefix": "ignore",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.universalSelector": "warning",
+    "css.lint.zeroUnits": "warning",
+    "css.lint.propertyIgnoredDueToDisplay": "warning",
+    "css.lint.important": "warning",
+    "scss.lint.vendorPrefix": "ignore",
+    "scss.lint.duplicateProperties": "warning",
+    "terminal.integrated.enableBold": false,
+    "terminal.integrated.confirmOnExit": true,
+    "git.autorefresh": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.lineHeight": 1,
+    "editor.renderLineHighlight": "none",
+    "editor.links": false,
+    "shareCode.github.username": "nazar.kuznettsov@gmail.com",
+    "shareCode.github.authtoken": "82853c26842b64b497837eab15bd26f82a04060f"
+}

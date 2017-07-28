@@ -1,0 +1,25 @@
+// Placeholder
+*::-webkit-input-placeholder {
+  opacity: 1;
+  color: grey;
+}
+
+*:-moz-placeholder {
+  opacity: 1;
+  color: grey;
+}
+
+*::-moz-placeholder {
+  opacity: 1;
+  color: grey;
+}
+
+*:-ms-input-placeholder {
+  opacity: 1;
+  color: grey;
+}
+
+.preloader-background.done {
+  visibility: hidden;
+  opacity: 0;
+}

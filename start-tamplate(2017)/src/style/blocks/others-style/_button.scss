@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    border: none;
+    background-color: red;
+    padding: 23px 75px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: #444444 .1s ease;
+    &:focus, &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+    &:hover {
+      background-color: lighten(#444444, 5%);
+    }
+      &::after {
+        opacity: .22;
+      }
+    &:active {
+      background-color: darken(#444444, 5%);
+    }
+      &::after {
+        opacity: .32;
+  }
+}   

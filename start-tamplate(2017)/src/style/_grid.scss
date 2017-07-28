@@ -1,0 +1,187 @@
+// BrackPoint
+$xs: "(max-width: 450px)";
+$sm: "(max-width: 578px)";
+$md: "(max-width: 768px)";
+$lg: "(max-width: 992px)";
+$xl: "(max-width: 1170)";
+
+$cols: 12;
+$gutter: 15px;
+
+
+
+@mixin conteiner() {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+}
+
+@mixin flex($gutter: -$gutter, $wrap: wrap) {
+	margin-left: $gutter;
+	margin-right: $gutter;
+	display: flex;
+	flex-wrap: $wrap;
+}
+
+@mixin col-flex($gutter: $gutter, $flex-grow: 1) {
+	flex-grow: $flex-grow;
+	margin-left: $gutter;
+	margin-right: $gutter;
+}
+
+@mixin line($gutter: $gutter) {
+	margin-left: $gutter;
+	margin-right: $gutter;
+	margin-bottom: $gutter * 2;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+@mixin col($num, $gutter: $gutter) {
+	width: calc( 100% / #{$cols} * #{$num} - #{$gutter * 2 } );
+}
+
+@mixin col-xs($num, $gutter: $gutter) {
+	@media #{$xs} {
+    @include col($num, $gutter: $gutter);
+	}
+}
+
+
+@mixin col-sm($num, $gutter: $gutter) {
+	@media #{$sm} {
+    @include col($num, $gutter: $gutter);
+	}
+}
+
+
+@mixin col-md($num, $gutter: $gutter) {
+	@media #{$md} {
+		@include col($num, $gutter: $gutter);
+	}
+}
+
+
+@mixin col-lg($num, $gutter: $gutter) {
+	@media #{$lg} {
+    @include col($num, $gutter: $gutter);
+	}
+}
+
+@mixin col-xl($num, $gutter: $gutter) {
+	@media #{$xl} {
+		@include col($num, $gutter: $gutter);
+	}
+}
+
+
+
+// Оступ Offset
+@mixin offset-xs ($margin) {
+	@media #{$xs} {
+    margin-left: $margin / $cols * 100 + '%';
+	}
+}
+
+@mixin offset-sm ($margin) {
+	@media #{$sm} {
+    margin-left: $margin / $cols * 100 + '%';
+	}
+}
+
+@mixin offset-md ($margin) {
+	@media #{$md} {
+    margin-left: $margin / $cols * 100 + '%';
+	}
+}
+
+@mixin offset-lg ($margin) {
+	@media #{$lg} {
+    margin-left: $margin / $cols * 100 + '%';
+	}
+}
+
+@mixin offset-xl ($margin) {
+	@media #{$xl} {
+    margin-left: $margin / $cols * 100 + '%';
+	}
+}
+
+
+
+// Медиа запроссы одиночные
+@mixin xs($name, $value) {
+	@media #{$xs} {
+		#{$name}: $value;
+	}	
+}
+
+
+@mixin sm($name, $value) {
+	@media #{$sm} {
+		#{$name}: $value;
+	}	
+}
+
+@mixin md($name, $value) {
+	@media #{$md} {
+		#{$name}: $value;
+	}	
+}
+
+@mixin lg($name, $value) {
+	@media #{$lg} {
+		#{$name}: $value;
+	}	
+}
+
+@mixin xl($name, $value) {
+	@media #{$xl} {
+		#{$name}: $value;
+	}	
+}
+
+
+
+
+
+// Медиа запроссы группа
+@mixin xs-box {
+  @media #{$xs} {
+    @content;
+  }
+}
+
+@mixin sm-box {
+  @media #{$sm} {
+    @content;
+  }
+}
+
+@mixin md-box {
+  @media #{$md} {
+    @content;
+  }
+}
+
+@mixin lg-box {
+  @media #{$lg} {
+    @content;
+  }
+}
+
+@mixin xl-box {
+  @media #{$xl} {
+    @content;
+  }
+}
+
+
+
+
+
+
+
+
